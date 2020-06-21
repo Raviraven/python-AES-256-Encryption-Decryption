@@ -9,4 +9,4 @@ Then script run two functions:
 For both functions the same IV is used - generated with blank characters (this can be changed, but remember - you have to use **the same IVs** for encryption and decryption!)
 
 ## Urls
-1. https://pycryptodome.readthedocs.io/en/latest/src/cipher/classic.html?fbclid=IwAR2xK1EinalNCyOCEDsud7PFxA0Gqpxc3eGr0GegEYsCWaGeyiLlDGJuges
+1. [PyCryptodome documentation](https://pycryptodome.readthedocs.io/en/latest/src/cipher/classic.html?fbclid=IwAR2xK1EinalNCyOCEDsud7PFxA0Gqpxc3eGr0GegEYsCWaGeyiLlDGJuges)
