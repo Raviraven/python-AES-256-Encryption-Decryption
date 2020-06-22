@@ -31,9 +31,9 @@ def encrypt_data(private_text, key):
 def decrypt_data(encrypted_message, key):
     try:
         key_padded_decrypted = pad(key, AES.block_size)
-        ct_decrypted = b64decode(encrypted_message)
+        ct_encrypted = b64decode(encrypted_message)
         cipher_decrypted = AES.new(key_padded_decrypted, AES.MODE_CBC, iv)
-        decrypted_message = cipher_decrypted.decrypt(ct_decrypted)
+        decrypted_message = cipher_decrypted.decrypt(ct_encrypted)
         pt = unpad(decrypted_message, AES.block_size)
         return pt
     except Exception as e:
